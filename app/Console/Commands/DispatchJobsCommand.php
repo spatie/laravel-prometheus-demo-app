@@ -10,7 +10,7 @@ use Illuminate\Console\Command;
 
 class DispatchJobsCommand extends Command
 {
-    protected $signature = 'app:dispatch-jobs-command';
+    protected $signature = 'app:dispatch-jobs';
 
     public function handle()
     {
